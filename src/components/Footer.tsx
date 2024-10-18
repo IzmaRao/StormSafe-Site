@@ -2,9 +2,6 @@ import React from 'react';
 import { FaCopyright, FaInbox, FaPhone, FaSearchLocation, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaPinterest } from 'react-icons/fa';
 
 function Footer() {
-  if (typeof window === 'undefined') {
-    return <div>Loading...</div>; // Ensure this is only rendered client-side
-  }
   return (
     <div className="text-white bg-[#1E3A8A] pt-[75px] pb-[40px] px-6 lg:h-[432px] lg:px-32 lg:space-x-20 md:h-[440px] md:px-28 md:space-x-16">
       <div className="gap-8 justify-center items-center flex flex-col lg:flex-row lg:justify-between lg:items-start md:flex-row md:justify-between md:items-start">
